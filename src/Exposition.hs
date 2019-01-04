@@ -5,7 +5,7 @@ import Lib
 import Data.List.Split
 
 import Diagrams.Prelude
-import Diagrams.Backend.Cairo
+import Diagrams.Backend.SVG
 
 magnitude :: Diagram B
 magnitude = center (hsep 1 $ fmap (\m -> wooble (0,0) 1 (Wobble 5 m 0) medium white) [0.01, 0.05, 0.1, 0.5]) `atop` background 15

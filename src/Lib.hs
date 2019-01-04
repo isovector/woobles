@@ -4,7 +4,7 @@ module Lib where
 import Control.Monad
 
 import Diagrams.Prelude
-import Diagrams.Backend.Cairo
+import Diagrams.Backend.SVG
 
 import Data.Colour.Palette.Types
 import Data.Colour.Palette.RandomColor
